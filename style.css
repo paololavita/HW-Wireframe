@@ -1,35 +1,52 @@
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color:'#777';
-    background:'#777';
-    width:'960px';
-    font-size:'18px';
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777;
+    background:#777;
+    width: 960px;
+    font-size:18px;
 }
 
-.container {
-   width: 960px;
+h1 {
+    color: #777;
+    background-color: #ebebeb;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
 }
 
-#Header { 
-    background: 'e#bebeb';
-    background-color:#efeee1;
+header { 
+    background-color: blueviolet;
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    width: 960px;
+    align-self: auto;
 }
 
-#Nav { 
-    background: 'e#bebeb';
+#Nav{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    width: 960px;
 }
 
-#Section { 
-    background: 'e#bebeb';
+#Section{
+    margin: 0;
+    padding: 0;
+    width: 395px;
+    float: left;
 }
 
-#Aside { 
-    background: 'e#bebeb';
+#Aside{
+    margin: 0;
+    padding: 0;
+    width: 395px;
+    float: right;
 }
 
-#Footer { 
-    background: 'e#bebeb';
+footer { 
+    background-color:orange;
+    margin: 0;
+    padding: 0;
+    width: 960px;
 }
